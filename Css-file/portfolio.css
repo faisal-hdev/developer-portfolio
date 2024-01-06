@@ -117,7 +117,7 @@ nav a:hover {
 
 .banner-title {
   color: #181818;
-  font-size: 85px;
+  font-size: 75px;
   font-weight: 700;
 }
 
@@ -272,6 +272,43 @@ footer {
   background: #fff8f3;
 }
 
+.align-l {
+  text-align: left;
+}
+
 .footer-container {
   display: flex;
+  gap: 120px;
+}
+
+.footer-column {
+  text-align: left;
+  width: 50%;
+}
+
+.left-align {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.contact input,
+textarea {
+  margin-top: 30px;
+  margin-bottom: 24px;
+  display: block;
+  padding: 18px 30px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  line-height: 28px;
+  width: 100%;
+  border: none;
+}
+
+.social-links a {
+  margin-right: 24px;
 }
