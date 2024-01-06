@@ -38,6 +38,23 @@ nav {
   background: #ff8c3a;
 }
 
+/* Common class design */
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-discription {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0;
+}
+
 .nav-title {
   color: #181818;
   font-size: 45px;
@@ -84,7 +101,8 @@ nav a:hover {
 }
 
 .banner-content {
-  width: 50%;
+  /* width: 50%; */
+  max-width: 500px;
 }
 
 .banner .profile-pic {
@@ -121,4 +139,38 @@ nav a:hover {
 
 .contact-btn:hover {
   background: none;
+}
+
+/* Main section design start here */
+/* about section */
+.about {
+  /* margin: 230px; */
+  margin: 130px 0;
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  /* width: 1140px; */
+  /* height: 550px; */
+}
+
+.about-info {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.info-title {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.info-ab {
+  color: #474747;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
 }
