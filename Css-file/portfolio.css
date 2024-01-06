@@ -46,7 +46,7 @@ nav {
   font-weight: 700;
 }
 
-.section-discription {
+.section-description {
   color: #757575;
   text-align: center;
   font-size: 18px;
@@ -142,21 +142,22 @@ nav a:hover {
 }
 
 /* Main section design start here */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* about section */
 .about {
-  /* margin: 230px; */
   margin: 130px 0;
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
-  /* width: 1140px; */
-  /* height: 550px; */
 }
 
-.about-info {
+.about-info-content {
   display: flex;
-  gap: 50px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .info-title {
@@ -167,10 +168,44 @@ nav a:hover {
   line-height: 30px;
 }
 
-.info-ab {
+.about-info {
   color: #474747;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
+}
+
+/* What i do section start */
+#what-i-do-description {
+  margin: 30px 130px;
+}
+
+.skills-container {
+  gap: 24px;
+  display: flex;
+}
+
+.skill {
+  padding: 30px;
+  width: 267px;
+  margin-top: 50px;
+  /* height: 377px; */
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  margin: 20px 0;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
