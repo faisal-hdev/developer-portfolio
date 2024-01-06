@@ -147,7 +147,7 @@ main {
   margin: 0 auto;
 }
 
-/* about section */
+/*============== about section design start here ==============*/
 .about {
   margin: 130px 0;
   padding: 130px;
@@ -210,7 +210,6 @@ main {
 
 /*============== Summary of Resume design start here ==============*/
 .summary-resume-section-title {
-  /* margin: 110px 0; */
   margin-top: 130px;
   margin-bottom: 110px;
   color: #181818;
@@ -263,4 +262,16 @@ main {
 .download-cv {
   margin-top: 50px;
   text-align: center;
+}
+
+/*============== Footer design start here ==============*/
+
+footer {
+  margin-top: 110px;
+  padding: 130px 200px;
+  background: #fff8f3;
+}
+
+.footer-container {
+  display: flex;
 }
